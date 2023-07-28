@@ -1,0 +1,23 @@
+
+body.background1 {
+    background-color: #6146db;
+    background-image: url("../imeges/background1.jpg");
+    background-repeat: no-repeat;
+  }
+  
+  body.background2 {
+    background-color: #e7e7e7;
+  }
+  
+  body.background3 {
+    background-color: #19181b;
+  }
+  html {
+    height: 100%;
+    
+  }
+
+body {
+    height: inherit;
+    margin: 0;
+}
