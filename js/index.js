@@ -31,29 +31,6 @@ var backKolButt2 = document.getElementById("backKolButt2");
 var backKolButt3 = document.getElementById("backKolButt3");
 const body = document.body;
 
-// backKolButt1.addEventListener("click", function() {
-    
-//   body.classList.remove("background2", "background3");
-//   body.classList.add("background1");
-// })
-
-// backKolButt2.addEventListener("click", function() { 
-//     body.classList.remove("background1", "background3");
-//     body.classList.add("background2");
-//   })
-// backKolButt3.addEventListener("click", function() {
-//     body.classList.remove("background1", "background2");
-//     body.classList.add("background3");
-// })
-
-
-// function setBodyClass() {
-//   const bodyClass = document.body.className;
-//   localStorage.setItem('bodyClass', bodyClass);
-//   window.location.href = 'html/page1.html';
-// }
-// localStorage.setItem('bodyClass', 'background1');
-
 function applyBodyClass(bodyClass) {
   body.classList.remove("background2", "background3", "background1");
   body.classList.add(bodyClass);
@@ -61,4 +38,7 @@ function applyBodyClass(bodyClass) {
 
 function setBodyClass(bodyClass) {
   localStorage.setItem('bodyClass', bodyClass);
+}
+if (localStorage.getItem('bodyClass')){
+  applyBodyClass();
 }

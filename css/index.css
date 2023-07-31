@@ -73,7 +73,7 @@
 }
 
 #item3 {
-  height: 100px;
+  height: auto;
   background-color: #58cabb;
   flex-basis: 80%; /* Оба блока будут иметь одинаковую ширину */
   
@@ -85,11 +85,57 @@
 
 #item4 {
   display: flex;
-  height: 100px;
+  flex-direction: column;
+  height: auto;
   background-color: #cab958;
   flex-basis: 30%; /* Оба блока будут иметь одинаковую ширину */ 
   justify-content: center; /* Горизонтальное выравнивание по центру */
   align-items: center; /* Вертикальное выравнивание по центру */
 }
- 
+
+#buton1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  border: 2px solid rgb(197, 167, 68);
+  box-sizing: border-box;
+}
+#buton2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  border: 2px solid rgb(197, 167, 68);
+  box-sizing: border-box;
+}
+#buton3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  border: 2px solid rgb(197, 167, 68);
+  box-sizing: border-box;
+}
+#buton4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  border: 2px solid rgb(197, 167, 68);
+  box-sizing: border-box;
+}
+#buton5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  border: 2px solid rgb(197, 167, 68);
+  box-sizing: border-box;
+}
 
