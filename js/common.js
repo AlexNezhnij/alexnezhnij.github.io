@@ -1,5 +1,8 @@
-function applyBodyClass() {
+function applyBodyClass(bodyClass) {
+    document.body.classList.remove("background2", "background3", "background1");
+    document.body.classList.add(bodyClass);
+  }
 
-    document.body.classList.add( localStorage.getItem('bodyClass'));
-    
+function setBodyClass(bodyClass) {
+    localStorage.setItem('bodyClass', bodyClass);
 }

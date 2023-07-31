@@ -1,0 +1,14 @@
+#loveBody {
+    display: flex;
+    display: flex;
+    height: inherit;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(194, 10, 169);
+}
+#love {
+    background-image: url("../imeges/love.gif");
+    width: 511px;
+    height: 448px;
+    background-size: cover;
+}

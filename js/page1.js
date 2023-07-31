@@ -1,2 +1,4 @@
 'use strict';
-applyBodyClass();
+
+console.log("fuuuuuuuuuuuuuuuuu")
+applyBodyClass(localStorage.getItem('bodyClass'));

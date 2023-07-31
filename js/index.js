@@ -31,14 +31,7 @@ var backKolButt2 = document.getElementById("backKolButt2");
 var backKolButt3 = document.getElementById("backKolButt3");
 const body = document.body;
 
-function applyBodyClass(bodyClass) {
-  body.classList.remove("background2", "background3", "background1");
-  body.classList.add(bodyClass);
+if (localStorage.getItem('bodyClass')){
+  applyBodyClass(localStorage.getItem('bodyClass'))
 }
 
-function setBodyClass(bodyClass) {
-  localStorage.setItem('bodyClass', bodyClass);
-}
-if (localStorage.getItem('bodyClass')){
-  applyBodyClass();
-}
