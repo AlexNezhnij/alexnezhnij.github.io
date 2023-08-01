@@ -1,0 +1,67 @@
+#flexBody {
+    display: flex;
+    height: inherit;
+    justify-content: center;
+    align-items: flex-start;
+}
+.conteiner {
+    width: 50%;
+    min-width: 800px;
+    height: 96%;
+    display: grid;
+    grid-template-columns: [start1col] 200px [end1col start2col] auto [end2col start3col] 100px [end3col];
+    grid-template-rows: [start1row] 40px [end1row start2row] 1fr [end2row start3row] 50px [end3row start4row] 30px [end4row];
+    grid-template-areas: 
+        "headerLogo header header"
+        "sideBar main main"
+        "footer footer footer"
+        "footfooter footfooter footfooter";  
+
+}
+#item_1 {
+    grid-area: headerLogo;
+    background: #73a4dbad;
+
+}
+#item_2 {
+    grid-area: header;   
+    background: #5997ddad; 
+}
+#item_3 {
+    grid-area: sideBar;
+    background: #6094cfad;
+    }
+
+#item_5 {
+    grid-area: footer;
+    background: #6a63cfad;
+}
+#item_6 {
+    grid-area: footfooter;
+    background: #737ddbad;
+}
+
+#item_4{
+    grid-area: main;
+    background: #6381d3ad;
+    display: flex;  
+    flex-direction: column; 
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#tankiBody {
+    display: grid;
+    background-color: rgb(26, 27, 27);
+    grid-template-columns: 1fr 10fr 1fr;
+    grid-template-rows: 10px auto 10px;
+    width: 100%;
+}
+
+#tankiMain {
+    grid-area: 2 / 2 / 3 / 3;
+    background-color: rgb(41, 43, 43);
+    place-self: center stretch;
+    
+
+}
