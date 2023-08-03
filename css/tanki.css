@@ -52,7 +52,7 @@
 
 #tankiBody {
     display: grid;
-    background-color: rgb(26, 27, 27);
+    background-color: rgb(142, 150, 150);
     grid-template-columns: 1fr 10fr 1fr;
     grid-template-rows: 10px auto 10px;
     width: 100%;
@@ -60,8 +60,12 @@
 
 #tankiMain {
     grid-area: 2 / 2 / 3 / 3;
-    background-color: rgb(41, 43, 43);
+    background-color: rgb(15, 15, 15);
     place-self: center stretch;
-    
+    display: grid;
+    grid-template-columns: repeat(8, auto);
+    grid-template-rows: repeat(6, auto);    
 
 }
+
+
